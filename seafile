@@ -1,0 +1,26 @@
+1) ubuntu 16.04
+2) pt-get install python-setuptools
+3) apt-get install python-imaging
+4) apt-get install sqlite3
+5) ./setup-seafile.sh
+5) config
+	server name:        myhome
+	server ip/domain:   box.thebestsolar.com
+	seafile data dir:   /home/hubert/DATA/seafile-data
+	fileserver port:    8082
+6) Seahub
+	-----------------------------------------------------------------
+	Your seafile server configuration has been completed successfully.
+	-----------------------------------------------------------------
+
+	run seafile server:     ./seafile.sh { start | stop | restart }
+	run seahub  server:     ./seahub.sh  { start <port> | stop | restart <port> }
+
+	-----------------------------------------------------------------
+	If the server is behind a firewall, remember to open these tcp ports:
+	-----------------------------------------------------------------
+
+	port of seafile fileserver:   8082
+	port of seahub:               8000
+	
+	admin user email:hp120374@gmail.com/hp9823026
