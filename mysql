@@ -18,3 +18,11 @@ https://help.ubuntu.com/12.04/serverguide/mysql.html
 4) show tables;
 5) select * from table;
 
+====mysql====
+1) create a user
+CREATE DATABASE piwigo;
+CREATE USER 'piwigo'@'localhost' IDENTIFIED BY 'your-password';
+GRANT ALL PRIVILEGES ON piwigo . * TO 'piwigo'@'localhost';
+FLUSH PRIVILEGES;
+quit
+
